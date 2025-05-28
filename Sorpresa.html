@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <title>SURPRISE</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<canvas class="stars" id="stars" title="Fondo animado de estrellas"></canvas>
+
+<div class="coupon-container" id="couponContainer">
+  <div class="coupon" id="coupon">
+    <div class="coupon-side coupon-front">A HAVE LUNCH FREE</div>
+    <div class="coupon-side coupon-back">
+      <img src="lasagna.png" alt="Lasaña deliciosa" title="Imagen de una lasaña deliciosa" />
+    </div>
+  </div>
+</div>
+
+<button class="music-btn" onclick="toggleMusic()" title="Activar o pausar música">🎵 Music 🎵</button>
+
+<audio id="bg-music" loop aria-label="Música de fondo Nyan Cat">
+  <source src="https://archive.org/download/NyanCatoriginal/Nyan%20Cat%20[original].mp3" type="audio/mp3" />
+</audio>
+
+<img id="nyan-cat" src="nyan.gif" alt="Nyan Cat animado volando" title="Nyan Cat volando animado" />
+
+<script src="script.js"></script>
+</body>
+</html>
